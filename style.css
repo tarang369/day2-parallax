@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+#one {
+  background-image: url('https://placekitten.com/g/900/700');
+}
+#two {
+  background-image: url('https://placekitten.com/g/800/600');
+}
+#three {
+  background-image: url('https://placekitten.com/g/800/700');
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
